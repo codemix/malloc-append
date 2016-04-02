@@ -1,0 +1,23 @@
+{
+  "presets": [
+    "es2015",
+    "stage-0",
+    "react"
+  ],
+  "plugins": [
+    ["typecheck", {
+      "disable": {
+        "production": true,
+        "coverage": true
+      }
+    }],
+    ["contracts", {
+      "env": {
+        "production": {
+          "strip": true
+        }
+      }
+    }],
+    ["trace", {strip: true}]
+  ]
+}
