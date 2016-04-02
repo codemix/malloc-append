@@ -1,7 +1,7 @@
 {
   "name": "malloc-append",
   "version": "0.0.1",
-  "description": "Simple append-only alloc() implementation on top of buffers and array buffers.",
+  "description": "Simple append-only alloc() implementation on top of buffers and array buffers, useful for logs.",
   "main": "index.js",
   "directories": {
     "test": "test"
